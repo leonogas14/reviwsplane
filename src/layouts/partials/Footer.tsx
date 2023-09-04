@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-theme-light dark:bg-darkmode-theme-light">
       
-        <div className="row items-center py-10">
+        <div className="items-center py-10">
           <div className="mb-8 lg:col-6 lg:mb-0">
             <ul>
               {menu.footer.map((menu) => (
